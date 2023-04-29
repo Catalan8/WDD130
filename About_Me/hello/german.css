@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+  }
+  
+  /* create the horizontal red bar */
+  #red-bar {
+    height: 33.33%;
+    background-color: red;
+  }
+  
+  /* create the horizontal gold bar */
+  #gold-bar {
+    height: 33.33%;
+    background-color: gold;
+  }
+  
+  /* create the horizontal black bar */
+  #black-bar {
+    height: 33.33%;
+    background-color: black;
+  }
+  
+  /* make sure there's no margin or padding on the body */
+  body {
+    margin: 0;
+    padding: 0;
+  }

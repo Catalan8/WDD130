@@ -1,0 +1,33 @@
+body {background-color: lawngreen;}
+
+h1{
+    background-color: brown;
+    color:white;
+    padding:10px 20px;
+    margin:20px;
+    border:white;
+    border-radius: 0cqmax;
+    text-align:center;
+
+}
+
+#smaller {
+
+    font-size:1.3em;
+    background-color: cornflowerblue;
+}
+
+.highlight {
+
+    background-color: blueviolet;
+}
+
+#purple {
+
+    background-color: blueviolet;
+}
+
+.orange {
+
+    background-color: orange;
+}
