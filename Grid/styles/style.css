@@ -1,0 +1,22 @@
+body {background-color: cornflowerblue;}
+
+.sec1{
+background-color: darkolivegreen;
+color: burlywood;
+grid-column: 2/4;
+}
+
+main {
+display: grid;
+grid-template-columns: 1fr 250px 2fr;
+gap: 2em;
+
+
+}
+
+.logo
+
+{
+
+
+}
