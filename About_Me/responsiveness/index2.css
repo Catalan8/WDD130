@@ -1,0 +1,20 @@
+div{
+    background-color: aquamarine;
+    display: grid;
+}
+
+@media screen and (min-width:582px){
+    div{
+background-color: chartreuse;
+grid-template-columns: 1fr;
+
+    }
+}
+
+@media screen and (min-width:803px){
+    div{
+background-color: crimson;
+grid-template-columns: 1fr 1fr;
+
+    }
+}

@@ -1,0 +1,17 @@
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+    /* This is the parent of the activity 1 boxes. */
+  }
+  .button {
+        font-size: 1rem;
+        line-height: 1.75;
+        padding: 0.5rem 2rem;
+        background-color: #ff5c35;
+        border-color: transparent;
+        color: #fff;
+        
+
+  }
