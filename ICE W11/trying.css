@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    border: 1px solid black;
+    height: 400px;
+  }
+
+  .box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 5px;
+  }
+
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .back {
+    grid-row: 1;
+    grid-column: 1;  
+  }
+  .image1 {
+    grid-row: 1;
+    grid-column: 1;
+    
+  }
+
+  .body {
+background: image(back.jpg);
+  }
