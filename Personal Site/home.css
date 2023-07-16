@@ -1,7 +1,38 @@
-.grid {
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #8800C7   ;
+  --secondary-color: #A44CD3 ;
+  --accent1-color: #E090DF;
+  --accent2-color: #FBBEDE;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "IM Fell French Canon SC";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #8800C7;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #A44CD3; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #E090DF  ;
+  --nav-link-color: #000000;
+  --nav-background-color: #E090DF;
+  --nav-hover-link-color: #000000;
+  --nav-hover-background-color: #8800C7;
+}
+
+  .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr; 
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
 }
 
 header {
@@ -23,7 +54,6 @@ header nav {
 }
 
 .dropdown-content {
-    
     display: none;
     position: absolute;
     background-color: rgb(255, 255, 255);
@@ -65,20 +95,28 @@ margin-top:100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; 
   width: 100%;
+  grid-column-gap: 0.3em;
 }
 
 .button{
   background-color: #442C6E;
   border: none;
   color: white;
-  padding: 20px;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 100px;
   transition: .2s;
+  margin: auto;
+  border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    display: block;
+ 
+
 }
 
 .button:hover {
@@ -86,9 +124,27 @@ margin-top:100px;
 }
 
 .navcenter {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
 
+.navcenter a {
+  text-decoration: none;
+  padding: .3em;
 }
 
 .collectionh2 {
 text-align: center;
+}
+.centerbutton{
+
+  place-items: center;
+}
+
+body {font-family: 'helvetica';}
+
+.centergrid {
+  grid-row: 2/3;
+  grid-column: 2/3;
 }
