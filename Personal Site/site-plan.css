@@ -178,3 +178,21 @@ nav a:hover {
   margin-bottom: -200px;
   background-color: #E090DF;
 }
+
+.social {
+  background-color: #1B1B1D;
+  text-align: right;
+  }
+  
+  .black {
+    background-color: #1B1B1D;
+    color: white;
+  }
+  
+  .footertext {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  footer {background-color: #000000;
+  }

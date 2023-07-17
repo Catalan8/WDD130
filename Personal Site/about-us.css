@@ -1,12 +1,12 @@
 .centerh2{
 text-align: center;
-background-color:#8800C7;
+background-color:#E090DF;
 color:white;
 margin: 0 auto;
 }
 
 .button{
-    background-color: #442C6E;
+    background-color: #E090DF;
     border: none;
     color: white;
     text-decoration: none;
@@ -43,6 +43,7 @@ margin: 0 auto;
     grid-column: 2/3;
     margin-bottom:150px;
     margin-left: 50px;
+    margin-top: 25px;
   }
 
   .center2{
@@ -58,3 +59,27 @@ margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 
   }
+
+  .social {
+    background-color: #1B1B1D;
+    text-align: right;
+    }
+    
+    .black {
+      background-color: #1B1B1D;
+      color: white;
+    }
+    
+    .footertext {
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+    }
+    footer {background-color: #000000;
+    }
+
+    .navcenter {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
