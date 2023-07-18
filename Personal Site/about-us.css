@@ -7,6 +7,14 @@ display: block;
     width: 100%;
 }
 
+.centerh4{
+  text-align: center;
+  background-color:#E090DF;
+  color:white;
+  margin: 0 auto;
+  display: block;
+      width: 100%;
+  }
 .button{
     background-color: #A44CD3;
     border: none;
