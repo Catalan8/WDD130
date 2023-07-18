@@ -3,17 +3,30 @@
     justify-content: center; /* Horizontally center the boxes */
     align-items: center; /* Vertically center the boxes */
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 400px;
   }
   
-
-
-  
-
-  body{background-image:url(https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80) ;}
+  body{background-image:url(https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80) ;
+  display: grid;
+  place-items: center;
+  height: 100svh;
+  padding-left: 50px;
+  }
   
   .class{
     grid-row: 3/4;
     grid-column: 3/4;
 
+  }
+
+  .line{ width: 100%; height: 4px; background-color: black;}
+
+  .grid{display: grid;
+  grid-template-columns: 1fr 1fr;}
+
+  .picture {grid-column: 1/2; grid-row: 1/2;}
+
+  .rst{grid-column: 2/4; grid-row: 1/2;
+  background-color: white; }
+  .q{margin-bottom: 100px;
   }

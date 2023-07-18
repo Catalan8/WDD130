@@ -6,7 +6,7 @@ margin: 0 auto;
 }
 
 .button{
-    background-color: #E090DF;
+    background-color: #A44CD3;
     border: none;
     color: white;
     text-decoration: none;
@@ -78,8 +78,64 @@ margin: 0 auto;
     footer {background-color: #000000;
     }
 
-    .navcenter {
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 20px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+      header{background-color: white;}
+
+      body{font-family: Arial, Helvetica, sans-serif;}
+      .navauto{
+        margin: auto;
       }
+
+      .dropdown:hover .dropdown-content {display: block;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+
+header{background-color: white;}
+body{font-family: Arial, Helvetica, sans-serif;}
+
+.centernav{
+    margin: 100px 0;
+    place-items: center;
+  }
+  .navauto{
+    margin: auto;
+  }
+
+  .navcenter {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .navcenter a {
+    text-decoration: none;
+    padding: .3em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #8800C7;
+  }
+  .dropdown {
+
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+      

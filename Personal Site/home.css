@@ -38,7 +38,7 @@
 header {
   display:grid;
   grid-template-columns:3fr 5fr;
-
+background-color: white;
 }
 
 header h2 {
@@ -178,8 +178,10 @@ text-align: right;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+
 }
 footer {background-color: #000000;
+  
 }
 
 body{margin: 0;}
