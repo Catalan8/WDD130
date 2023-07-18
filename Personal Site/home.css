@@ -197,7 +197,7 @@ body{margin: 0;}
 .foundergrid
 {display:grid;
   grid-template-columns:1fr 1fr;
-  grid-column gap:;
+  grid-column gap;
 
 }
 
